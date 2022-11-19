@@ -1,8 +1,8 @@
-swoc (1.6.3-deb11u3) UNRELEASED; urgency=medium
+swoc (1.6.3-deb11u3) bullseye; urgency=medium
 
   * Correct gitignore version.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:45:43 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:46:36 +0000
 
 swoc (1.6.3-deb11u2) bullseye; urgency=medium
 
