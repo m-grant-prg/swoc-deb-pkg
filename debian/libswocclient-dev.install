@@ -1,0 +1,11 @@
+usr/include/libswocclient.h
+usr/lib/*/libswocclient.a
+usr/lib/*/libswocclient.la
+usr/lib/*/libswocclient.so
+usr/lib/*/pkgconfig/libswocclient.pc
+usr/share/doc/swoc/AUTHORS usr/share/doc/libswocclient-dev
+usr/share/doc/swoc/ChangeLog usr/share/doc/libswocclient-dev
+usr/share/doc/swoc/COPYING usr/share/doc/libswocclient-dev
+usr/share/doc/swoc/NEWS usr/share/doc/libswocclient-dev
+usr/share/doc/swoc/README usr/share/doc/libswocclient-dev
+

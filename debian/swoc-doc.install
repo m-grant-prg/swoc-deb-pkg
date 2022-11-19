@@ -1,0 +1,9 @@
+usr/share/doc-base/swoc
+usr/share/doc/swoc/api/html/*
+usr/share/doc/swoc/api/swoc-doxy-*.tar.gz
+usr/share/doc/swoc/AUTHORS usr/share/doc/swoc-doc
+usr/share/doc/swoc/ChangeLog usr/share/doc/swoc-doc
+usr/share/doc/swoc/COPYING usr/share/doc/swoc-doc
+usr/share/doc/swoc/NEWS usr/share/doc/swoc-doc
+usr/share/doc/swoc/README usr/share/doc/swoc-doc
+

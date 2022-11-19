@@ -1,0 +1,155 @@
+Source: swoc
+Priority: optional
+Maintainer: Mark Grant <m.grant.prg@gmail.com>
+Build-Depends: debhelper-compat (= 13), autoconf-archive, pkg-config,
+	libtool-bin,
+	bash (>= 4.3), doxygen, graphviz, tar(>= 1.26), txt2man, txt2manwrap,
+	libmgec2-dev, libmgec2, libmgesysutils1-dev, libmgesysutils1,
+	libssh-gcrypt-dev, libssh-gcrypt-4
+Standards-Version: 4.5.1
+Section: libs
+Vcs-Git: https://github.com/m-grant-prg/swoc.git
+Vcs-Browser: https://github.com/m-grant-prg/swoc
+
+Package: libswoccommon-dev
+Section: libdevel
+Architecture: any
+Depends: libswoccommon3 (= ${binary:Version}), ${misc:Depends},
+	mgrant-obs-deb-keyring
+Suggests: swoc-doc
+Description: Server Wait on Clients common library development files.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the development files for the common library such as
+ static libraries, header files and man pages.
+
+Package: swoccommon-conf
+Section: misc
+Architecture: any
+Depends: bash (>= 4.3),
+	libswoccommon3 (= ${binary:Version}), ${misc:Depends},
+	mgrant-obs-deb-keyring
+Suggests: swoc-doc
+Description: Server Wait on Clients common library configuration files.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the configuration file and configuration script.
+
+Package: libswoccommon3
+Section: libs
+Architecture: any
+Depends: libmgec2, libmgesysutils1, libssh-gcrypt-4,
+	swoccommon-conf (= ${binary:Version}),
+	${shlibs:Depends}, ${misc:Depends},
+	mgrant-obs-deb-keyring
+Description: Server Wait on Clients common library.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the common library.
+
+Package: libswocclient-dev
+Section: libdevel
+Architecture: any
+Depends: libswocclient2 (= ${binary:Version}), ${misc:Depends},
+	mgrant-obs-deb-keyring
+Suggests: swoc-doc
+Description: Server Wait on Clients client library development files.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the development files for the client library such as
+ static libraries, header files and man pages.
+
+Package: libswocclient2
+Section: libs
+Architecture: any
+Depends: libmgesysutils1,
+	libswoccommon3 (= ${binary:Version}),
+	${shlibs:Depends}, ${misc:Depends},
+	mgrant-obs-deb-keyring
+Description: Server Wait on Clients client library.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the client library.
+
+Package: libswocserver-dev
+Section: libdevel
+Architecture: any
+Depends: libswocserver3 (= ${binary:Version}), ${misc:Depends},
+	mgrant-obs-deb-keyring
+Suggests: swoc-doc
+Description: Server Wait on Clients server library development files.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the development files for the server library such as
+ static libraries, header files and man pages.
+
+Package: libswocserver3
+Section: libs
+Architecture: any
+Depends: libswoccommon3 (= ${binary:Version}),
+	${shlibs:Depends}, ${misc:Depends},
+	mgrant-obs-deb-keyring
+Description: Server Wait on Clients server library.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the server library.
+
+Package: swoc-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends},
+	mgrant-obs-deb-keyring
+Recommends: doc-base
+Suggests: dochelp
+Description: Server Wait on Clients API documentation package.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the API documentation of the system.
+
+Package: swoc-int-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends},
+	mgrant-obs-deb-keyring
+Recommends: doc-base
+Suggests: dochelp
+Description: Server Wait on Clients full internal documentation package.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the full documentation of the system.
+
+Package: swocclient
+Section: misc
+Architecture: any
+Depends: bash (>= 4.3),
+	libmgec2, libswocclient2 (= ${binary:Version}),
+	${shlibs:Depends}, ${misc:Depends},
+	mgrant-obs-deb-keyring
+Description: Server Wait on Clients client application.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the client application.
+
+Package: swocserver
+Section: misc
+Architecture: any
+Depends: bash (>= 4.3),
+	libmgec2, libswocserver3 (= ${binary:Version}),
+	${shlibs:Depends}, ${misc:Depends},
+	mgrant-obs-deb-keyring
+Description: Server Wait on Clients server application.
+ The Server Wait On Clients system allows a client to register a lock on a
+ server. This allows coordination and sequencing of jobs and activities between
+ machines.
+ This package contains the server application.
+

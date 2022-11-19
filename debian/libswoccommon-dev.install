@@ -1,0 +1,10 @@
+usr/lib/*/libswoccommon.a
+usr/lib/*/libswoccommon.la
+usr/lib/*/libswoccommon.so
+usr/lib/*/pkgconfig/libswoccommon.pc
+usr/share/doc/swoc/AUTHORS usr/share/doc/libswoccommon-dev
+usr/share/doc/swoc/ChangeLog usr/share/doc/libswoccommon-dev
+usr/share/doc/swoc/COPYING usr/share/doc/libswoccommon-dev
+usr/share/doc/swoc/NEWS usr/share/doc/libswoccommon-dev
+usr/share/doc/swoc/README usr/share/doc/libswoccommon-dev
+

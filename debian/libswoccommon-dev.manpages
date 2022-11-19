@@ -1,0 +1,7 @@
+usr/share/man/man3/*msg*
+usr/share/man/man3/*ssh*
+usr/share/man/man3/*sock*
+usr/share/man/man3/est_connect*
+usr/share/man/man3/init_conn*
+usr/share/man/man3/swcom_*
+
