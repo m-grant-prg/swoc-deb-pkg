@@ -1,8 +1,8 @@
-swoc (1.6.3-deb11u2) UNRELEASED; urgency=medium
+swoc (1.6.3-deb11u2) bullseye; urgency=medium
 
   * Use libmgesysutils1 named packages.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:26:35 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:32:43 +0000
 
 swoc (1.6.3-deb11u1) bullseye; urgency=medium
 
