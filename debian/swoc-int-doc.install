@@ -1,6 +1,5 @@
 usr/share/doc-base/swoc-int
-usr/share/doc/swoc/int/html-int/*
-usr/share/doc/swoc/int/swoc-int-doxy-*.tar.gz
+usr/share/doc/swoc/int
 usr/share/doc/swoc/AUTHORS usr/share/doc/swoc-int-doc
 usr/share/doc/swoc/ChangeLog usr/share/doc/swoc-int-doc
 usr/share/doc/swoc/COPYING usr/share/doc/swoc-int-doc
