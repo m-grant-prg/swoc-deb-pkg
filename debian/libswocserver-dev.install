@@ -1,4 +1,4 @@
-usr/include/libswocserver.h
+usr/include/*/libswocserver.h
 usr/lib/*/libswocserver.a
 usr/lib/*/libswocserver.la
 usr/lib/*/libswocserver.so
