@@ -1,3 +1,11 @@
+swoc (1.6.3+rc3-deb11u3) bullseye; urgency=medium
+
+  * Use libmgec7 and libmgesysutils2.
+  * Tidy up doc installs.
+  * Update new location of include files.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 15:07:24 +0000
+
 swoc (1.6.3-deb11u3) bullseye; urgency=medium
 
   * Correct gitignore version.
