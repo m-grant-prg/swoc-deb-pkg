@@ -4,7 +4,7 @@ Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), autoconf-archive, pkg-config,
 	libtool-bin,
 	bash (>= 4.3), doxygen, graphviz, tar(>= 1.26), txt2man, txt2manwrap,
-	libmgec2-dev, libmgec2, libmgesysutils1-dev, libmgesysutils1,
+	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
 	libssh-gcrypt-dev, libssh-gcrypt-4
 Standards-Version: 4.5.1
 Section: libs
@@ -40,7 +40,7 @@ Description: Server Wait on Clients common library configuration files.
 Package: libswoccommon3
 Section: libs
 Architecture: any
-Depends: libmgec2, libmgesysutils1, libssh-gcrypt-4,
+Depends: libmgec7, libmgesysutils2, libssh-gcrypt-4,
 	swoccommon-conf (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends},
 	mgrant-obs-deb-keyring
@@ -66,7 +66,7 @@ Description: Server Wait on Clients client library development files.
 Package: libswocclient2
 Section: libs
 Architecture: any
-Depends: libmgesysutils1,
+Depends: libmgesysutils2,
 	libswoccommon3 (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends},
 	mgrant-obs-deb-keyring
@@ -131,7 +131,7 @@ Package: swocclient
 Section: misc
 Architecture: any
 Depends: bash (>= 4.3),
-	libmgec2, libswocclient2 (= ${binary:Version}),
+	libmgec7, libswocclient2 (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends},
 	mgrant-obs-deb-keyring
 Description: Server Wait on Clients client application.
@@ -144,7 +144,7 @@ Package: swocserver
 Section: misc
 Architecture: any
 Depends: bash (>= 4.3),
-	libmgec2, libswocserver3 (= ${binary:Version}),
+	libmgec7, libswocserver3 (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends},
 	mgrant-obs-deb-keyring
 Description: Server Wait on Clients server application.
