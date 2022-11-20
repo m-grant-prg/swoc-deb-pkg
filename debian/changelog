@@ -1,9 +1,9 @@
-swoc (1.6.3-0ubuntu20.04u2) UNRELEASED; urgency=medium
+swoc (1.6.3-0ubuntu20.04u2) focal; urgency=medium
 
   * Use libmgec7 and libmgesysutils2.
   * Update watch file to use mode=git.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 10:00:55 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 10:02:28 +0000
 
 swoc (1.6.3-0ubuntu20.04u1) focal; urgency=medium
 
