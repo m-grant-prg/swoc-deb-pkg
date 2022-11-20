@@ -1,0 +1,5 @@
+src/man/3/com-dev/messages/*.3
+src/man/3/com-dev/ssh/*.3
+src/man/3/com-dev/tcp/*.3
+src/man/3/com-dev/validateconfig/*.3
+
