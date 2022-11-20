@@ -1,3 +1,9 @@
+swoc (1.6.3+rc3-deb11u4) bullseye; urgency=medium
+
+  * Correct gitignore.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 15:26:58 +0000
+
 swoc (1.6.3+rc3-deb11u3) bullseye; urgency=medium
 
   * Use libmgec7 and libmgesysutils2.
