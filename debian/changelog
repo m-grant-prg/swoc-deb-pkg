@@ -1,3 +1,9 @@
+swoc (1.6.3+rc3+deb11u5) bullseye; urgency=medium
+
+  * Change to Debian native format
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 28 Feb 2023 13:53:47 +0000
+
 swoc (1.6.3+rc3-deb11u4) bullseye; urgency=medium
 
   * Correct gitignore.
