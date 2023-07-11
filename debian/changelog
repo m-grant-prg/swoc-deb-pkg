@@ -1,3 +1,9 @@
+swoc (1.6.4~rc6+deb11u1) UNRELEASED; urgency=medium
+
+  * Merge new upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 11 Jul 2023 10:04:04 +0100
+
 swoc (1.6.3+rc3+deb11u5) bullseye; urgency=medium
 
   * Change to Debian native format
