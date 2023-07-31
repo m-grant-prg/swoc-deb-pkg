@@ -1,6 +1,7 @@
 swoc (1.7.0-0ubuntu22.04u2) UNRELEASED; urgency=medium
 
   * Update new location of header files.
+  * Change Debian source format to native.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 15:21:27 +0100
 
