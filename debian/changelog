@@ -1,8 +1,8 @@
-swoc (1.7.0+deb13u1) UNRELEASED; urgency=medium
+swoc (1.7.0+deb13u1) trixie; urgency=medium
 
   * Create testing branch.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:34:50 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:35:34 +0100
 
 swoc (1.7.0+deb12u1) bookworm; urgency=medium
 
