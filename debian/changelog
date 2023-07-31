@@ -2,6 +2,7 @@ swoc (1.6.4-0ubuntu20.04u1) UNRELEASED; urgency=medium
 
   * Merge new upstream release.
   * Update Copyright for 2023.
+  * Update watch file to support ~.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:40:21 +0100
 
