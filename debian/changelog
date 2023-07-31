@@ -2,6 +2,7 @@ swoc (1.7.0-0ubuntu22.04u1) UNRELEASED; urgency=medium
 
   * Merge new upstream release.
   * Update Copyright for 2023.
+  * Update watch file to support ~.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:47:51 +0100
 
