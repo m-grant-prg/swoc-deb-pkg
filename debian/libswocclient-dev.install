@@ -1,4 +1,4 @@
-usr/include/libswocclient.h
+usr/include/*/libswocclient.h
 usr/lib/*/libswocclient.a
 usr/lib/*/libswocclient.la
 usr/lib/*/libswocclient.so
