@@ -1,8 +1,8 @@
-swoc (1.7.0+deb12u1) UNRELEASED; urgency=medium
+swoc (1.7.0+deb12u1) bookworm; urgency=medium
 
   * Merge new upstream release.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:28:28 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:29:43 +0100
 
 swoc (1.6.4+deb11u1) bullseye; urgency=medium
 
