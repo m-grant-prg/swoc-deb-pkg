@@ -1,6 +1,7 @@
 swoc (1.6.4-0ubuntu20.04u2) UNRELEASED; urgency=medium
 
   * Update new location of header files.
+  * Change to Debian native format.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 14:20:57 +0100
 
