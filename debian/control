@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), autoconf-archive, pkg-config,
 	libtool-bin,
-	bash (>= 4.3), doxygen, graphviz, tar(>= 1.26), txt2man, txt2manwrap,
+	bash, doxygen, graphviz, tar, txt2man, txt2manwrap,
 	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
 	libssh-gcrypt-dev, libssh-gcrypt-4
 Standards-Version: 4.5.1
@@ -26,7 +26,7 @@ Description: Server Wait on Clients common library development files.
 Package: swoccommon-conf
 Section: misc
 Architecture: any
-Depends: bash (>= 4.3),
+Depends: bash,
 	libswoccommon3 (= ${binary:Version}), ${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients common library configuration files.
@@ -121,7 +121,7 @@ Description: Server Wait on Clients full internal documentation package.
 Package: swocclient
 Section: misc
 Architecture: any
-Depends: bash (>= 4.3),
+Depends: bash,
 	libmgec7, libswocclient2 (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients client application.
@@ -133,7 +133,7 @@ Description: Server Wait on Clients client application.
 Package: swocserver
 Section: misc
 Architecture: any
-Depends: bash (>= 4.3),
+Depends: bash,
 	libmgec7, libswocserver3 (= ${binary:Version}),
 	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients server application.
