@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), autoconf-archive, pkg-config,
 	libtool-bin,
-	bash, doxygen, graphviz, tar, txt2man, txt2manwrap,
+	bash, doxygen, graphviz, tar, txt2manwrap,
 	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
 	libssh-gcrypt-dev, libssh-gcrypt-4
 Standards-Version: 4.5.1
