@@ -14,8 +14,9 @@ Vcs-Browser: https://github.com/m-grant-prg/swoc
 Package: libswoccommon-dev
 Section: libdevel
 Architecture: any
-Depends: libswoccommon3 (= ${binary:Version}), ${misc:Depends},
-	mgrant-obs-deb-keyring
+Depends: libswoccommon3 (= ${binary:Version}),
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients common library development files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -28,8 +29,9 @@ Package: swoccommon-conf
 Section: misc
 Architecture: any
 Depends: bash,
-	libswoccommon3 (= ${binary:Version}), ${misc:Depends},
-	mgrant-obs-deb-keyring
+	libswoccommon3 (= ${binary:Version}),
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients common library configuration files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -42,8 +44,8 @@ Section: libs
 Architecture: any
 Depends: libmgec7, libmgesysutils2, libssh-gcrypt-4,
 	swoccommon-conf (= ${binary:Version}),
-	${shlibs:Depends}, ${misc:Depends},
-	mgrant-obs-deb-keyring
+	mgrant-obs-deb-keyring,
+	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients common library.
  The Server Wait On Clients system allows a client to register a lock on a
  server. This allows coordination and sequencing of jobs and activities between
@@ -53,8 +55,9 @@ Description: Server Wait on Clients common library.
 Package: libswocclient-dev
 Section: libdevel
 Architecture: any
-Depends: libswocclient2 (= ${binary:Version}), ${misc:Depends},
-	mgrant-obs-deb-keyring
+Depends: libswocclient2 (= ${binary:Version}),
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients client library development files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -68,8 +71,8 @@ Section: libs
 Architecture: any
 Depends: libmgesysutils2,
 	libswoccommon3 (= ${binary:Version}),
-	${shlibs:Depends}, ${misc:Depends},
-	mgrant-obs-deb-keyring
+	mgrant-obs-deb-keyring,
+	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients client library.
  The Server Wait On Clients system allows a client to register a lock on a
  server. This allows coordination and sequencing of jobs and activities between
@@ -79,8 +82,9 @@ Description: Server Wait on Clients client library.
 Package: libswocserver-dev
 Section: libdevel
 Architecture: any
-Depends: libswocserver3 (= ${binary:Version}), ${misc:Depends},
-	mgrant-obs-deb-keyring
+Depends: libswocserver3 (= ${binary:Version}),
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients server library development files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -93,8 +97,8 @@ Package: libswocserver3
 Section: libs
 Architecture: any
 Depends: libswoccommon3 (= ${binary:Version}),
-	${shlibs:Depends}, ${misc:Depends},
-	mgrant-obs-deb-keyring
+	mgrant-obs-deb-keyring,
+	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients server library.
  The Server Wait On Clients system allows a client to register a lock on a
  server. This allows coordination and sequencing of jobs and activities between
@@ -104,8 +108,8 @@ Description: Server Wait on Clients server library.
 Package: swoc-doc
 Section: doc
 Architecture: all
-Depends: ${misc:Depends},
-	mgrant-obs-deb-keyring
+Depends: mgrant-obs-deb-keyring,
+	${misc:Depends}
 Recommends: doc-base
 Suggests: dochelp
 Description: Server Wait on Clients API documentation package.
@@ -117,8 +121,8 @@ Description: Server Wait on Clients API documentation package.
 Package: swoc-int-doc
 Section: doc
 Architecture: all
-Depends: ${misc:Depends},
-	mgrant-obs-deb-keyring
+Depends: mgrant-obs-deb-keyring,
+	${misc:Depends}
 Recommends: doc-base
 Suggests: dochelp
 Description: Server Wait on Clients full internal documentation package.
@@ -132,8 +136,8 @@ Section: misc
 Architecture: any
 Depends: bash,
 	libmgec7, libswocclient2 (= ${binary:Version}),
-	${shlibs:Depends}, ${misc:Depends},
-	mgrant-obs-deb-keyring
+	mgrant-obs-deb-keyring,
+	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients client application.
  The Server Wait On Clients system allows a client to register a lock on a
  server. This allows coordination and sequencing of jobs and activities between
@@ -145,8 +149,8 @@ Section: misc
 Architecture: any
 Depends: bash,
 	libmgec7, libswocserver3 (= ${binary:Version}),
-	${shlibs:Depends}, ${misc:Depends},
-	mgrant-obs-deb-keyring
+	mgrant-obs-deb-keyring,
+	${shlibs:Depends}, ${misc:Depends}
 Description: Server Wait on Clients server application.
  The Server Wait On Clients system allows a client to register a lock on a
  server. This allows coordination and sequencing of jobs and activities between
