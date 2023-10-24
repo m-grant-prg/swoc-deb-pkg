@@ -14,7 +14,8 @@ Vcs-Browser: https://github.com/m-grant-prg/swoc
 Package: libswoccommon-dev
 Section: libdevel
 Architecture: any
-Depends: libswoccommon3 (= ${binary:Version}), ${misc:Depends}
+Depends: libswoccommon3 (= ${binary:Version}),
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients common library development files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -27,7 +28,8 @@ Package: swoccommon-conf
 Section: misc
 Architecture: any
 Depends: bash,
-	libswoccommon3 (= ${binary:Version}), ${misc:Depends}
+	libswoccommon3 (= ${binary:Version}),
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients common library configuration files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -50,7 +52,8 @@ Description: Server Wait on Clients common library.
 Package: libswocclient-dev
 Section: libdevel
 Architecture: any
-Depends: libswocclient2 (= ${binary:Version}), ${misc:Depends}
+Depends: libswocclient2 (= ${binary:Version}),
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients client library development files.
  The Server Wait On Clients system allows a client to register a lock on a
@@ -74,7 +77,8 @@ Description: Server Wait on Clients client library.
 Package: libswocserver-dev
 Section: libdevel
 Architecture: any
-Depends: libswocserver3 (= ${binary:Version}), ${misc:Depends}
+Depends: libswocserver3 (= ${binary:Version}),
+	${misc:Depends}
 Suggests: swoc-doc
 Description: Server Wait on Clients server library development files.
  The Server Wait On Clients system allows a client to register a lock on a
