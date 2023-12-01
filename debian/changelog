@@ -1,11 +1,11 @@
-swoc (1.7.1~rc1+deb12u1) UNRELEASED; urgency=medium
+swoc (1.7.1~rc1+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
   * Remove versions from Depends fields, too old
   * Remove Depends on txt2man
   * Re-order Depends to ease cherry picking to Ubuntu
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 01 Dec 2023 14:39:26 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 01 Dec 2023 14:41:05 +0000
 
 swoc (1.7.0+deb12u1) bookworm; urgency=medium
 
