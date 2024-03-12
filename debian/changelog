@@ -1,4 +1,4 @@
-swoc (1.7.0-0ubuntu22.04u2) jammy; urgency=medium
+swoc (1.7.0+ubuntu22.04u2) jammy; urgency=medium
 
   * Update new location of header files.
   * Change Debian source format to native.
