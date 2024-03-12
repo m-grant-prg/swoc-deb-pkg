@@ -1,9 +1,25 @@
+swoc (1.7.1~rc2+ubuntu22.04u1) jammy; urgency=medium
+
+  * New upstream development release
+  * Correct native versioning
+  * Remove [Build-]Depends on essential packages
+  * Update Copyright for 2024
+  * Update mailmap to v1.0.4
+  * Update gitignore to v1.0.12
+  * Update gitattributes to v1.0.5
+  * Update editorconfig to v1.0.6
+  * Re-order Depends to ease cherry picking to Ubuntu
+  * Remove Depends on txt2man
+  * Remove versions from Depends fields, too old
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 12 Mar 2024 14:33:10 +0000
+
 swoc (1.7.0+ubuntu22.04u2) jammy; urgency=medium
 
   * Update new location of header files.
   * Change Debian source format to native.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 15:24:02 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 12 Mar 2024 14:27:24 +0000
 
 swoc (1.7.0-0ubuntu22.04u1) jammy; urgency=medium
 
