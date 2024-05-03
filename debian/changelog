@@ -1,3 +1,17 @@
+swoc (1.7.1+deb12u1) bookworm; urgency=medium
+
+  * New upstream release
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Remove [Build-]Depends on essential packages
+  * Add lintian override for watch file
+  * Silence lintian changelog-file-missing-explicit-entry warning
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 08:48:31 +0100
+
 swoc (1.7.1~rc1+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
