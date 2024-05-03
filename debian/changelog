@@ -1,10 +1,16 @@
+swoc (1.7.1+ubuntu24.04u1) noble; urgency=medium
+
+  * Create noble
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 09:22:31 +0100
+
 swoc (1.7.1+ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
   * Add lintian override for watch file
   * Silence lintian changelog-file-missing-explicit-entry warning
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 09:16:51 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 09:21:54 +0100
 
 swoc (1.7.1~rc2+ubuntu22.04u1) jammy; urgency=medium
 
