@@ -1,0 +1,7 @@
+usr/lib/*/libswocserver.so.*
+usr/share/doc/swoc/AUTHORS usr/share/doc/libswocserver3
+usr/share/doc/swoc/ChangeLog usr/share/doc/libswocserver3
+usr/share/doc/swoc/COPYING usr/share/doc/libswocserver3
+usr/share/doc/swoc/NEWS usr/share/doc/libswocserver3
+usr/share/doc/swoc/README usr/share/doc/libswocserver3
+
