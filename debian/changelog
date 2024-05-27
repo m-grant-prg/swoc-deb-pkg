@@ -1,3 +1,9 @@
+swoc (1.7.2~rc1+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 27 May 2024 10:37:41 +0100
+
 swoc (1.7.1+deb12u1) bookworm; urgency=medium
 
   * New upstream release
@@ -10,7 +16,7 @@ swoc (1.7.1+deb12u1) bookworm; urgency=medium
   * Add lintian override for watch file
   * Silence lintian changelog-file-missing-explicit-entry warning
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 08:48:31 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 27 May 2024 10:36:48 +0100
 
 swoc (1.7.1~rc1+deb12u1) bookworm; urgency=medium
 
