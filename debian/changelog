@@ -1,3 +1,9 @@
+swoc (1.7.2+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 03 Jun 2024 15:52:27 +0100
+
 swoc (1.7.1+deb13u1) trixie; urgency=medium
 
   * New upstream release
@@ -13,7 +19,7 @@ swoc (1.7.1+deb13u1) trixie; urgency=medium
   * Add lintian override for watch file
   * Silence lintian changelog-file-missing-explicit-entry warning
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 08:59:54 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 03 Jun 2024 15:51:56 +0100
 
 swoc (1.7.0+deb13u1) trixie; urgency=medium
 
