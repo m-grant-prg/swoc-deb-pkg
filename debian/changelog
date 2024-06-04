@@ -1,8 +1,14 @@
+swoc (1.7.2+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 04 Jun 2024 09:11:32 +0100
+
 swoc (1.7.1+ubuntu24.04u1) noble; urgency=medium
 
   * Create noble
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 May 2024 09:22:31 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 04 Jun 2024 09:10:56 +0100
 
 swoc (1.7.1+ubuntu22.04u1) jammy; urgency=medium
 
