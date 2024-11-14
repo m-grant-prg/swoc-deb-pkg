@@ -1,3 +1,10 @@
+swoc (1.7.4+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * lxcu: Start using libssh OpenSSL flavour
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 10:13:54 +0000
+
 swoc (1.7.3+deb13u1) trixie; urgency=medium
 
   * New upstream release
