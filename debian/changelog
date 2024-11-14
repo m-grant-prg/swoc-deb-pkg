@@ -1,3 +1,9 @@
+swoc (1.7.4+deb12u1) bookworm; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 09:51:24 +0000
+
 swoc (1.7.4~rc2+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
