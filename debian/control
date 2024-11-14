@@ -4,7 +4,7 @@ Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), autoconf-archive, libtool-bin,
 	pkg-config,
 	doxygen, graphviz,
-	libssh-dev libssh-4
+	libssh-dev, libssh-4,
 	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
 	txt2manwrap
 Standards-Version: 4.5.1
