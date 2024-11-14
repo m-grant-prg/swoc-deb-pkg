@@ -1,3 +1,9 @@
+swoc (1.7.4+ubuntu22.04u1) jammy; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 14:41:28 +0000
+
 swoc (1.7.2+ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
