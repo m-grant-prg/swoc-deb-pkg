@@ -4,7 +4,7 @@ Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), autoconf-archive, libtool-bin,
 	pkg-config,
 	doxygen, graphviz,
-	libssh-gcrypt-dev, libssh-gcrypt-4,
+	libssh-dev libssh-4
 	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
 	txt2manwrap
 Standards-Version: 4.5.1
@@ -42,7 +42,7 @@ Description: Server Wait on Clients common library configuration files.
 Package: libswoccommon3
 Section: libs
 Architecture: any
-Depends: libmgec7, libmgesysutils2, libssh-gcrypt-4,
+Depends: libmgec7, libmgesysutils2, libssh-4,
 	swoccommon-conf (= ${binary:Version}),
 	mgrant-obs-deb-keyring,
 	${shlibs:Depends}, ${misc:Depends}
