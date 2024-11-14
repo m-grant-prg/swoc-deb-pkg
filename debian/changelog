@@ -1,3 +1,9 @@
+swoc (1.7.4+deb13u2) trixie; urgency=medium
+
+  * Fix copy and paste error resulting in bad format
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 10:31:56 +0000
+
 swoc (1.7.4+deb13u1) trixie; urgency=medium
 
   * New upstream release
