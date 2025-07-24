@@ -1,3 +1,10 @@
+swoc (1.7.4+deb13u3) trixie; urgency=medium
+
+  * New Debian release of trixie
+  * Update Debian Copyright for 2025
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 24 Jul 2025 10:22:53 +0100
+
 swoc (1.7.4+deb13u2) trixie; urgency=medium
 
   * Fix copy and paste error resulting in bad format
