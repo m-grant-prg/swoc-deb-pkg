@@ -1,0 +1,392 @@
+swoc (1.7.4+deb13u2) trixie; urgency=medium
+
+  * Fix copy and paste error resulting in bad format
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 10:31:56 +0000
+
+swoc (1.7.4+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * lxcu: Start using libssh OpenSSL flavour
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Nov 2024 10:13:54 +0000
+
+swoc (1.7.3+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Oct 2024 10:19:32 +0100
+
+swoc (1.7.2+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 03 Jun 2024 15:52:27 +0100
+
+swoc (1.7.1+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Remove versions from Depends fields, too old
+  * Remove Depends on txt2man
+  * Re-order Depends to ease cherry picking to Ubuntu
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Remove [Build-]Depends on essential packages
+  * Add lintian override for watch file
+  * Silence lintian changelog-file-missing-explicit-entry warning
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 03 Jun 2024 15:51:56 +0100
+
+swoc (1.7.0+deb13u1) trixie; urgency=medium
+
+  * Create testing branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:35:34 +0100
+
+swoc (1.7.0+deb12u1) bookworm; urgency=medium
+
+  * Merge new upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:29:43 +0100
+
+swoc (1.6.4+deb11u1) bullseye; urgency=medium
+
+  * Merge new upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 31 Jul 2023 10:24:33 +0100
+
+swoc (1.6.4~rc6+deb11u1) bullseye; urgency=medium
+
+  * Merge new upstream development release.
+  * Update Copyright for 2023.
+  * Update watch file to support ~.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 11 Jul 2023 10:09:18 +0100
+
+swoc (1.6.3+rc3+deb11u5) bullseye; urgency=medium
+
+  * Change to Debian native format
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 28 Feb 2023 13:53:47 +0000
+
+swoc (1.6.3+rc3-deb11u4) bullseye; urgency=medium
+
+  * Correct gitignore.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 15:26:58 +0000
+
+swoc (1.6.3+rc3-deb11u3) bullseye; urgency=medium
+
+  * Use libmgec7 and libmgesysutils2.
+  * Tidy up doc installs.
+  * Update new location of include files.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 20 Nov 2022 15:07:24 +0000
+
+swoc (1.6.3-deb11u3) bullseye; urgency=medium
+
+  * Correct gitignore version.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:46:36 +0000
+
+swoc (1.6.3-deb11u2) bullseye; urgency=medium
+
+  * Use libmgesysutils1 named packages.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 19 Nov 2022 15:32:43 +0000
+
+swoc (1.6.3-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 16 Aug 2022 16:01:40 +0100
+
+swoc (1.6.2-deb11u2) bullseye; urgency=medium
+
+  * Rebuild for OBS..
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 02 Aug 2022 10:29:31 +0100
+
+swoc (1.6.2-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 28 Jul 2022 10:00:31 +0100
+
+swoc (1.6.1+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 18 Jul 2022 10:05:56 +0100
+
+swoc (1.6.1-deb11u3) bullseye; urgency=medium
+
+  * Rebuild for OBS repos.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 12 Jul 2022 07:47:01 +0100
+
+swoc (1.6.1-deb11u2) bullseye; urgency=medium
+
+  * Rebuild for OBS repos.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 08 Jul 2022 08:25:01 +0100
+
+swoc (1.6.1-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 26 Jun 2022 08:43:01 +0100
+
+swoc (1.5.3+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 12 Jun 2022 15:01:07 +0100
+
+swoc (1.5.3-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 28 May 2022 10:37:15 +0100
+
+swoc (1.5.2+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 18 Apr 2022 10:01:00 +0100
+
+swoc (1.5.2+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+  * Add depends on OBS signing key package.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 16 Apr 2022 15:51:55 +0100
+
+swoc (1.5.2+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+  * Update Copyright for 2022.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 31 Mar 2022 16:08:10 +0100
+
+swoc (1.5.2-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Correct license in copyright.
+  * Upgrade to compatibility level 13
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 08 Dec 2021 15:43:54 +0000
+
+swoc (1.5.1-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Reviewed up to current standards version 4.5.1
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 30 Oct 2021 10:29:16 +0100
+
+swoc (1.5.0+rc6-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 16 Oct 2021 10:56:19 +0100
+
+swoc (1.5.0+rc5-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 14 Oct 2021 15:38:58 +0100
+
+swoc (1.5.0+rc4-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 13 Oct 2021 09:05:54 +0100
+
+swoc (1.5.0+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 11 Oct 2021 14:17:39 +0100
+
+swoc (1.5.0+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 09 Oct 2021 15:01:55 +0100
+
+swoc (1.5.0+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 07 Oct 2021 10:52:59 +0100
+
+swoc (1.4.1+rc6-deb11u1) bullseye; urgency=medium
+
+  * Create bullseye branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 20 Aug 2021 08:36:06 +0100
+
+swoc (1.4.1+rc6-deb10u2) buster; urgency=medium
+
+  * Add security hardening to the systemd service.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 18 Aug 2021 15:00:06 +0100
+
+swoc (1.4.1+rc6-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 17 Aug 2021 08:58:06 +0100
+
+swoc (1.4.1+rc5-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 15 Aug 2021 15:44:37 +0100
+
+swoc (1.4.1+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+  * Correct man page installation.
+  * Install standard GNU files such as AUTHORS etc.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 12 Aug 2021 13:58:58 +0100
+
+swoc (1.4.1+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 17 Jun 2021 14:49:30 +0100
+
+swoc (1.4.1+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+  * Update Copyright for 2021.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 06 Mar 2021 10:48:49 +0000
+
+swoc (1.4.1-deb10u3) buster; urgency=medium
+
+  * With debhelper 12 use new /usr/libexec location for pkglibexec.
+  * Use new libmgec2 package.
+  * Remove rules boilerplate.
+  * Seperate API and internal documentation.
+  * Upgrade to compatibility level 12.
+  * Remove Build-Depends on dia.
+  * Add Build-Depends on libtool-bin.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 10 Nov 2020 10:41:39 +0000
+
+swoc (1.4.1-deb10u2) buster; urgency=medium
+
+  * Bump version for repo problem.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 01 Nov 2020 09:59:03 +0000
+
+swoc (1.4.1-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 29 Oct 2020 14:53:03 +0000
+
+swoc (1.4.0+rc6-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 27 Jun 2020 15:25:50 +0100
+
+swoc (1.4.0+rc5-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 27 Jun 2020 14:55:29 +0100
+
+swoc (1.4.0+rc4-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+    Debian changes to support the separation of API and internal documention
+    included in this upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 27 Jun 2020 14:02:32 +0100
+
+swoc (1.4.0+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 17 Jun 2020 15:36:24 +0100
+
+swoc (1.4.0+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+    Update Copyright for 2020.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 22 Mar 2020 14:50:15 +0000
+
+swoc (1.4.0+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 21 Mar 2020 10:34:39 +0000
+
+swoc (1.4.0-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 16 Nov 2019 15:39:36 +0000
+
+swoc (1.2.1+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+    Update watch file for tarball and repo names.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 11 Nov 2019 10:04:57 +0000
+
+swoc (1.2.1-deb10u1) buster; urgency=medium
+
+  * Update to buster.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 23 Jul 2019 08:40:21 +0100
+
+swoc (1.2.1-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 30 May 2019 15:30:21 +0100
+
+swoc (1.1.9+rc4-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 26 May 2019 08:41:58 +0100
+
+swoc (1.1.9+rc3-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 25 May 2019 10:07:41 +0100
+
+swoc (1.1.9+rc2-deb9u4) stretch; urgency=medium
+
+  * Change libswoccommon-conf package name to swoccommon-conf as re-packaging
+    for rpm throws rpmlint errors that it is not a library package so should not
+    be called lib*.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 25 May 2019 07:29:10 +0100
+
+swoc (1.1.9+rc2-deb9u3) stretch; urgency=medium
+
+  * Move swoc.conf and swoc-setup.sh to new -conf package which does not depend
+    on the library SONAME. (Otherwise these files end up owned by completely
+    different library packages which causes conflicts when say lib 3 replaces
+    lib2).
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 23 May 2019 10:47:10 +0100
+
+swoc (1.1.9+rc2-deb9u1) stretch; urgency=medium
+
+  * Initial release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 22 May 2019 10:30:10 +0100
