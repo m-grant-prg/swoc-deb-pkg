@@ -1,3 +1,11 @@
+swoc (1.7.4+deb14u3) forky; urgency=medium
+
+  * Transition from Trixie to Forky
+  * Update Debian Copyright for 2025
+  * Update upstream Copyright for 2025
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 24 Aug 2025 15:23:07 +0100
+
 swoc (1.7.4+deb13u2) trixie; urgency=medium
 
   * Fix copy and paste error resulting in bad format
