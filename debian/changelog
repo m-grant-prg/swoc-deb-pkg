@@ -1,3 +1,10 @@
+swoc (1.8.0+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Update upstream Copyright for 2025
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 27 Oct 2025 09:12:47 +0000
+
 swoc (1.7.4+deb13u3) trixie; urgency=medium
 
   * New Debian release of trixie
