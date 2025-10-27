@@ -1,3 +1,11 @@
+swoc (1.8.0+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+  * Update Debian Copyright for 2025
+  * Update upstream Copyright for 2025
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 27 Oct 2025 09:21:53 +0000
+
 swoc (1.7.4+ubuntu24.04u1) noble; urgency=medium
 
   * New upstream release
