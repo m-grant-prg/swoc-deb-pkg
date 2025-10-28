@@ -1,3 +1,9 @@
+swoc (1.8.2+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 28 Oct 2025 15:34:27 +0000
+
 swoc (1.8.1+deb13u1) trixie; urgency=medium
 
   * New upstream release
