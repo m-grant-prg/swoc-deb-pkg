@@ -1,3 +1,9 @@
+swoc (1.8.2+deb14u1) forky; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 28 Oct 2025 15:37:53 +0000
+
 swoc (1.8.1+deb14u1) forky; urgency=medium
 
   * New upstream release
