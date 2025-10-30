@@ -1,8 +1,7 @@
 Source: swoc
 Priority: optional
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
-Build-Depends: debhelper-compat (= 13), autoconf-archive, libtool-bin,
-	pkg-config,
+Build-Depends: debhelper-compat (= 13), autoconf-archive, libtool-bin, pkgconf,
 	doxygen, graphviz,
 	libssh-dev, libssh-4,
 	libmgec7-dev, libmgec7, libmgesysutils2-dev, libmgesysutils2,
