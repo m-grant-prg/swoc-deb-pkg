@@ -2,6 +2,7 @@ etc/swocserverd.conf
 usr/libexec/swoc/swocserverd-setup.sh
 usr/sbin/swocserver
 usr/sbin/swocserverd
+usr/share/bash-completion/completions/swocserver
 usr/share/doc/swoc/AUTHORS usr/share/doc/swocserver
 usr/share/doc/swoc/ChangeLog usr/share/doc/swocserver
 usr/share/doc/swoc/COPYING usr/share/doc/swocserver
