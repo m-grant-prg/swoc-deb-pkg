@@ -1,4 +1,5 @@
 usr/sbin/swocclient
+usr/share/bash-completion/completions/swocclient
 usr/share/doc/swoc/AUTHORS usr/share/doc/swocclient
 usr/share/doc/swoc/ChangeLog usr/share/doc/swocclient
 usr/share/doc/swoc/COPYING usr/share/doc/swocclient
