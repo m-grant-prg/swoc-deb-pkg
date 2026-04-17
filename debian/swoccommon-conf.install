@@ -1,0 +1,8 @@
+etc/swoc.conf
+usr/libexec/swoc/swoc-setup.sh
+usr/share/doc/swoc/AUTHORS usr/share/doc/swoccommon-conf
+usr/share/doc/swoc/ChangeLog usr/share/doc/swoccommon-conf
+usr/share/doc/swoc/COPYING usr/share/doc/swoccommon-conf
+usr/share/doc/swoc/NEWS usr/share/doc/swoccommon-conf
+usr/share/doc/swoc/README usr/share/doc/swoccommon-conf
+

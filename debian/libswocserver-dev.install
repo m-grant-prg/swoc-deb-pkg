@@ -1,0 +1,11 @@
+usr/include/*/libswocserver.h
+usr/lib/*/libswocserver.a
+usr/lib/*/libswocserver.la
+usr/lib/*/libswocserver.so
+usr/lib/*/pkgconfig/libswocserver.pc
+usr/share/doc/swoc/AUTHORS usr/share/doc/libswocserver-dev
+usr/share/doc/swoc/ChangeLog usr/share/doc/libswocserver-dev
+usr/share/doc/swoc/COPYING usr/share/doc/libswocserver-dev
+usr/share/doc/swoc/NEWS usr/share/doc/libswocserver-dev
+usr/share/doc/swoc/README usr/share/doc/libswocserver-dev
+
