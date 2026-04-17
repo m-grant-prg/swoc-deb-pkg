@@ -1,3 +1,9 @@
+swoc (1.8.3+ubuntu26.04u1) resolute; urgency=medium
+
+  * Create resolute
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Apr 2026 15:13:49 +0100
+
 swoc (1.8.3+ubuntu24.04u1) noble; urgency=medium
 
   * Use pkgconf AOT pkg-config
